@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap&subset=cyrillic-ext');
+
+@font-face {
+    font-family: 'Intro';
+    src: url("../fonts/intro.woff2"), url('intro.woff2') format('woff2'), url('intro.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* *,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+img {
+    vertical-align: top; }*/
+html {
+    font-size: 14px;
+    font-weight: 400;
+    white-space:normal
+}
+
+   body {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+   h2 {
+    font-family:'Intro';
+    font-style: normal
+    font-size: 20px;
+} 
+.paragraf1 {
+    font-family: "Arial", "Helvetica", monospace;
+    color: #4e4343;
+    text-align: justify;
+}
+.paragraf2 {
+    font-family: "Times New Roman", fantasy;
+    font-style: oblique;
+    line-height: 150%;
+}
+.punkt_1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-weight: 500;
+}
+.punkt_2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+.text-align {
+    text-align: center;
+}
+.aline_text {
+    text-align: right;
+}
+.decorat {
+    text-decoration: underline;
+    text-shadow: 5px 5px 20px; color: rgb(3, 87, 34);
+}
+.over {
+    text-decoration: overline;
+}
+.link {
+    text-decoration: none;
+    text-shadow: -8px -10px 1px;
+        color: rgb(87, 3, 45);
+}
+.aline_text span {
+    text-decoration:line-through
+}
+.punkt_1, .punkt_2 {
+    letter-spacing: 5px;
+}
+.indent_text {
+    text-indent: 50px;
+}
