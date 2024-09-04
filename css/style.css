@@ -40,8 +40,12 @@ h6 {
 }
 img {
     vertical-align: top; }*/
+img {
+    width: 850px;
+}
 html {
     font-size: 14px;
+    width: 850px;
     font-weight: 400;
     white-space:normal
 }
